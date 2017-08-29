@@ -1,6 +1,5 @@
 package com.j.common.anotation.sign;
 
-import org.springframework.stereotype.Component;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

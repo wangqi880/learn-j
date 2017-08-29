@@ -54,4 +54,10 @@
   </servlet-mapping>
   <!-- Spring MVC Config End -->
 
+  <servlet>
+    <servlet-name>authInitServlet</servlet-name>
+    <servlet-class>com.j.web.AuthInitServlet</servlet-class>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+
 </web-app>
