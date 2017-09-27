@@ -2,7 +2,9 @@ package com.j.web;
 
 import com.j.common.anotation.loginAuth.AuthUtil;
 import com.sun.net.httpserver.HttpServer;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import java.util.HashMap;
